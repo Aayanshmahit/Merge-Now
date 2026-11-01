@@ -18,4 +18,4 @@ def get_database_session():
     with Session(database_engine) as session:
         yield session
 
-#create_db_and_tables() --> testing the connection with postgre
+create_db_and_tables()
